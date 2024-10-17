@@ -8,11 +8,14 @@ footer{
     left: auto;
 }
 button.meta{
-    color: rgb(85, 80, 73);
+    color: rgb(235, 213, 183);
 }
 button.contenteditable{
-    color: rgb(47, 48, 44);
+    color: rgb(196, 206, 168);
 }
 button.class{
-    color: rgb(29, 34, 21);
+    color: rgb(151, 163, 131);
+}
+h3{
+    font-style: oblique;
 }
