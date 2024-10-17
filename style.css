@@ -8,5 +8,8 @@ footer{
     left: auto;
 }
 button.meta{
-    color: antiquewhite;
+    color: rgb(85, 80, 73);
+}
+button.contenteditable{
+    color: rgb(47, 48, 44);
 }
