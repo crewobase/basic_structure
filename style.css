@@ -7,3 +7,6 @@ body {
 footer{
     left: auto;
 }
+button.meta{
+    color: antiquewhite;
+}
