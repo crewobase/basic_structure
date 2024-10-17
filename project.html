@@ -3,9 +3,10 @@
     <head style="background-color: rgb(168, 241, 22);">  
         <meta charset="'UTF-8"; style="text-align: inherit;>
         <meta name="description" content="This is a popurlar family website">
-        <title>Rothschild<style>
+        <title>rothschild<style>
         </style></title>
     </head>
+    <br/>
     <body style="text-align: center; background-color: rgb(94, 114, 53);">
         <div class="container"; style="font-size: larger;">
             <header1 style="font-size: xx-large;"><b><big>The Rothschild Family</big></b></header1>
@@ -36,8 +37,33 @@
                </p>
                <p><i>The family funded Cecil Rhodes in the creation of the African colony of Rhodesia.</i></p>
         </div>
+    
+        <br/>
+        <button class="meta;">see list</button> <br/> <button contenteditable="move">sign in</button> <br/> <button class="container">next</button>
         <h4>If you have time, you should read more about this incredible family on the <a style="color: yellowgreen;" href="(https://en.wikipedia.org/wiki/Rothschild_family)">Rothschild website</a></h4>
         <br/>
-        <button class="meta;">see list</button> <br/> <button contenteditable="move">sign up</button>
+        <div style="display: inline-block; font-weight: bold;">
+            <form action="/submit" method="POST">
+                <label for="Name">First Name:</label>
+                <input type="text" id="name" name="name">
+<br/>
+                <lable for="Name">Last Name:</lable>
+                <input type="text" id="name" name="name">
+<br/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br/>
+                <lable for="Tel">Number:</lable>
+                <input type="Tel" id="tel" name="tel">
+                <br/>
+                <lable for="password">Password:</lable>
+                <input type="password" id="alphanumeric" name="password">
+<br/>                
+                <input type="submit" value="Submit">
+              </form>           
+        </div>
+        <br/>
+        <br/>
+        <br/>
     </body> 
 </html>
